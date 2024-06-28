@@ -20,6 +20,6 @@ def zip_folder(folder_path, output_path):
     print(f"Folder '{folder_path}' has been zipped into '{output_path}'")
 
 # Example usage
-folder_to_zip = "../../data/local_video_action_dataset/final"  # Change this to the path of the folder you want to zip
+folder_to_zip = "../../data/local_video_action_dataset/final_fiveLabels_splitted"  # Change this to the path of the folder you want to zip
 output_zip_file = "../../data/local_video_action_dataset/CowActionNet.zip"  # Change this to your desired zip file path
 zip_folder(folder_to_zip, output_zip_file)
